@@ -17,7 +17,7 @@ async function input(question: string) : Promise<string> {
 }
 
 async function run(){
-    const question = await input('User: ');
+    const question = await input('You: ');
     if (question.trim()) {
         try {
             const startTime = Date.now();
