@@ -27,7 +27,7 @@ async function run(){
             console.log("Gemini:", reply, `(${responseTime}ms)`);
             await run();
         } catch (error) {
-            console.error(`Error: ${error.message}`, 'ERROR');
+            //console.error(`Error: ${error.message}`, 'ERROR');
         }
     }
 }
