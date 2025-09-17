@@ -4,6 +4,7 @@
   "description": "Google Gemini API-based conversational chat library with memory",
   "main": "src/geminiChat.ts",
   "scripts": {
+    "config": "ts-node src/config.ts",
     "sample": "ts-node sample/sample.ts",
     "chat": "ts-node sample/chat.ts"
   },
