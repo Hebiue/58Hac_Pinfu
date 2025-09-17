@@ -1,4 +1,4 @@
-import {Chat} from "./src/geminiChat";
+import {Chat} from "../src/geminiChat";
 import * as readline from "node:readline";
 
 const chat = new Chat();

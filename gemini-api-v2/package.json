@@ -5,7 +5,7 @@
   "main": "src/geminiChat.ts",
   "scripts": {
     "sample": "ts-node sample/sample.ts",
-    "chat": "ts-node chat.ts"
+    "chat": "ts-node sample/chat.ts"
   },
   "author": "ITM16141",
   "license": "MIT",
